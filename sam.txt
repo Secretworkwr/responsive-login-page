@@ -1,0 +1,92 @@
+<div class="right">
+        <div class="messaegs">
+            <div class="heading">
+                <h4>Messaegs</h4><i class='bx bx-edit' style='color:#ffffff'  ></i>
+            </div>
+            <div class="search-bar">
+                <i class='bx bx-search-alt-2' style='color:#ffffff' ></i>
+                <input type="search" placeholder="search..." id="message-search">
+            </div>
+            <div class="category">
+                <h6 class="active">primary</h6>
+                <h6>general</h6>
+                <h6>message request</h6>
+            </div>
+            <div class="message">
+                <div class="profile-photo">
+                    <img src="images/profile-icon.png" alt="">
+                </div>
+                <div class="message-body">
+                    <h5>manu</h5>
+                    <p class="text-muted">just woke up</p>
+                </div>
+            </div>
+        </div>
+        <div class="frnd-rqst">
+            <h4>requesr</h4>
+            <div class="rqst">
+                <div class="info">
+                    <div class="profile-pdoto">
+                        <img src="images/profile-icon.png" alt="">
+                    </div>
+                    <div>
+                        <h5>hareesh</h5>
+                        <p class="text-muted">
+                            8 mutula friends
+                        </p>
+                        <div class="action">
+                            <a href="#" class="btn-accept">accept</a>
+                            <a href="#" class="btn-cancel">cancel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    main .container .right{
+    height: max-content;
+    position: sticky;
+    bottom: 0;
+    
+}
+.right .message{
+    background: ;
+}
+
+.btn-accept{
+    display: inline-block;
+    padding:15px 35px;
+    background: #03fc03;
+    color: white;
+    font-size: var(--p-font);
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 3rem;
+    transition: all .50s ease;
+}
+.btn-accept:hover{
+    background: #23b023;
+}
+.btn-cancel{
+    display: inline-block;
+    padding:15px 35px;
+    background: #ff0011;
+    color: white;
+    font-size: var(--p-font);
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 3rem;
+    transition: all .50s ease;
+}
+.btn-cancel:hover{
+    background: #c21723;
+}
